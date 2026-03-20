@@ -1,45 +1,45 @@
 {
   "added_fail": 0,
   "added_ok": 100,
-  "api_key_sha256": "6705893f47e7736dc0b87a63999f5a238b19cded80067b94afaff5685a16b993",
-  "author_used": "Тимур",
+  "api_key_sha256": "fcad279cf880088664787ef26c56e2feffb71b12004ea64b5571f0f23688e1a1",
+  "author_used": "Serik Adil",
   "count_requested": 100,
-  "generated_utc": "2026-03-19T23:49:29.549925+00:00",
+  "generated_utc": "2026-03-20T23:38:56.140057+00:00",
   "id_range": [
-    10200,
-    10299
+    10000,
+    10099
   ],
   "sample_books": [
     {
-      "author": "Тимур",
-      "id": 10200,
-      "isbn": "978-0-16-053607-6",
-      "title": "Realigned high-level system engine [53f612b1]"
+      "author": "Serik Adil",
+      "id": 10000,
+      "isbn": "978-1-01-668149-0",
+      "title": "Mandatory directional toolset [7872841c]"
     },
     {
-      "author": "Тимур",
-      "id": 10201,
-      "isbn": "978-1-5499-8732-8",
-      "title": "Progressive well-modulated adapter [53f612b1]"
+      "author": "Serik Adil",
+      "id": 10001,
+      "isbn": "978-1-71568-974-2",
+      "title": "Stand-alone background Internet solution [7872841c]"
     },
     {
-      "author": "Тимур",
-      "id": 10202,
-      "isbn": "978-0-549-30794-5",
-      "title": "Expanded stable help-desk [53f612b1]"
+      "author": "Serik Adil",
+      "id": 10002,
+      "isbn": "978-1-5314-8778-2",
+      "title": "Managed 4thgeneration service-desk [7872841c]"
     },
     {
-      "author": "Тимур",
-      "id": 10203,
-      "isbn": "978-0-576-07626-5",
-      "title": "Monitored non-volatile database [53f612b1]"
+      "author": "Serik Adil",
+      "id": 10003,
+      "isbn": "978-0-02-289767-3",
+      "title": "Function-based multi-tasking flexibility [7872841c]"
     },
     {
-      "author": "Тимур",
-      "id": 10204,
-      "isbn": "978-0-271-77995-9",
-      "title": "Devolved bottom-line success [53f612b1]"
+      "author": "Serik Adil",
+      "id": 10004,
+      "isbn": "978-0-7628-8659-3",
+      "title": "Polarized system-worthy structure [7872841c]"
     }
   ],
-  "tag": "53f612b1"
+  "tag": "7872841c"
 }

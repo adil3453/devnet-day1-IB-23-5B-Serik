@@ -1,17 +1,17 @@
 {
   "artifacts_sha256": {
-    "add100_report": "3cfb515dd1e56266066cc0cc8fdaaf5ec2e2ebce0b123a37afe105eb1174a7f6",
-    "books_before": "356d45fbea84aaef4614d6248c31f8cb76271dd4196915300ba7912947a09e42",
-    "books_by_me": "0052d9e0fe02c7a2d14571311a2a54ea343173eb2ac322f50f343018c253666a",
-    "books_sorted_isbn": "0f671dd8b5c6159899e0cacc9a1cf359b2a084af6b1c4fcae2010910debabbb3",
-    "curl_get_books": "398021a314dd5db8b544000199104b769a7afcc63fa3cfa531f306c36cc49518",
-    "curl_get_books_isbn": "2ec02f0cfbf0e06b9b7254807dc91362f08663528bb8290ca45092798b81f9bd",
-    "curl_get_books_sorted": "d628b2e92e81dcc32d34656bfc85ce21b15435096b7f8064423ba37b96568e50",
-    "mybook_post": "65f819d62b117eb35ffe164c52c0aff88be944fbc90fa6a3505d404ec14ad604",
-    "postman_collection": "0304093b71dd9acdc4b0398123efaec14b60aeb86e4e2626ea3633c05d13b506",
-    "postman_environment": "21ff9a78a289a7c313d1db40795ede7b6320d959fd56981a2e3855e2d5bbef7f"
+    "add100_report": "7ef528e48607feae9cdf8990df08efa515964e3d07f9f7f01d111ff20475f330",
+    "books_before": "322d26648770adf9d59a3494eb339cf8d089b5f76e888c3c258c996d0df89a83",
+    "books_by_me": "b8e316180d73e77ecfb5654cb7b6dc5ad4efad29943d88c38539ad84e502a9c3",
+    "books_sorted_isbn": "e93798438b504b0110223dfcfff061ea6cb0fc4cc9176ebb0d006fe596d1982c",
+    "curl_get_books": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "curl_get_books_isbn": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "curl_get_books_sorted": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "mybook_post": "e99a40bef9bb6410b07c361cce5f23a0144b8bb8e38eaf1c20f197a83669d24c",
+    "postman_collection": "f77cbbc54e5b6106c6b87ec924c8f516af93d478057d03a88484bb17811b1ae2",
+    "postman_environment": "0d3fc05e46906714446e3beda5bb14510e1ddddf2e5b5c79c08dfcc8142951a4"
   },
-  "generated_utc": "2026-03-20T22:30:36.140863+00:00",
+  "generated_utc": "2026-03-20T23:47:54.437334+00:00",
   "lab": {
     "apihost": "http://library.demo.local",
     "must_use": {
@@ -23,9 +23,9 @@
   "schema_version": "3.1",
   "student": {
     "group": "IB-23-5b",
-    "name": "Тимур",
-    "token": "D1-IB-23-5b-21-FA14",
-    "token_hash8": "53f612b1"
+    "name": "Serik Adil",
+    "token": "D1-IB-23-5b-20-3E97",
+    "token_hash8": "7872841c"
   },
   "validation": {
     "must_have_added_100": true,

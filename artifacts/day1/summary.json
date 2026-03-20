@@ -6,7 +6,7 @@
     "validation_errors": [],
     "validation_passed": true
   },
-  "generated_utc": "2026-03-20T22:30:35.766831+00:00",
+  "generated_utc": "2026-03-20T23:47:54.220045+00:00",
   "run": {
     "platform": "linux",
     "python": "3.8.2"
@@ -14,7 +14,7 @@
   "schema_version": "1.0",
   "student": {
     "group": "IB-23-5b",
-    "name": "Тимур",
-    "token": "D1-IB-23-5b-21-FA14"
+    "name": "Serik Adil",
+    "token": "D1-IB-23-5b-20-3E97"
   }
 }

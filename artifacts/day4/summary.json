@@ -7,29 +7,29 @@
     "security_db_has_tables": false
   },
   "evidence_sha256": {
-    "ansible_hello": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "ansible_ping": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "ansible_playbook_install": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "buildapp_console": "5867956c1098a0d2603ba188957c5ea6c8543ce924e11fb6da061fc15eaed7b8",
-    "curl_apache_8081": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "db_tables": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "db_user_hash_sample": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "docker_build_log": "d961a2bc3053a6496414904f52ff7dcf91fa8bcb236ba679714595124b562f90",
-    "docker_ps": "1f8dc04fb27429d1642585fd67bcfb712f55f388335437fbd714c44fda82b0df",
-    "docker_sampleapp_curl": "f10bd93cac00a1f1c1724438f9659b3d2e61df6d24c4a9730081393c238314b1",
-    "docker_token_proof": "17b48dc079e67c8617e853a3545d65c01018d7e414bbbf0f382d1dea2737da44",
-    "jenkins_docker_ps": "2acb65a93b0e1c7d9e9d7df4999d3f7dcca49e0a932b85319a32bf17b304f7f3",
-    "jenkins_url": "d095fe147c37a69451d82eee12259e27d86848e206ae75a37c3de31c6a456aab",
-    "login_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "login_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "pipeline_console": "263bf77ada327684003c3f802ae975f2f3bb70e5e05c94f61abf8324bc90aafe",
-    "pipeline_script": "6ddcb6d2a9c1bd545bda010eba0a2940cc978e496aed9c5f6b70b8d7f58bd971",
+    "ansible_hello": "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447",
+    "ansible_ping": "5a6a28fc1600ea141d7b39125822c1d51fb166abe5628e7fc1f99a9b02f5d52c",
+    "ansible_playbook_install": "8db2da6856ae14787458c5a1e4a3b3437f578801d29ded1e8f47ca924b9eb9da",
+    "buildapp_console": "584d1861db65a828bc2d3eb88ca50a6812b8f89769ece48a08506e45b07844ae",
+    "curl_apache_8081": "4dce01b2df4c2ba9959d6d40ee4aa7e21bd9a7a2bea1326fbd41bd12963f95a4",
+    "db_tables": "",
+    "db_user_hash_sample": "",
+    "docker_build_log": "ef9bdc571959ef18219ce94b4077d4dbf52844c1295b327753bcaf970d456be8",
+    "docker_ps": "694d6f5fe91edc86eeb7620e0c1582a316b0f5ceb1051aaf3e928d55676f2e29",
+    "docker_sampleapp_curl": "a9a8f0028678669f5106c36533a8689d73e33253369c421ec2535cc44b6ba9b9",
+    "docker_token_proof": "a9a8f0028678669f5106c36533a8689d73e33253369c421ec2535cc44b6ba9b9",
+    "jenkins_docker_ps": "3aed17cdcbb78a013dfbf95c0a241925b7df201d229421b08d3ba24e1e5aacf5",
+    "jenkins_url": "185f195598830dbc315eb3a6741f97eace245e9d9d2a7225c5da77b87f27f3fc",
+    "login_v1": "",
+    "login_v2": "",
+    "pipeline_console": "68c193d31561794744e1ea5058d3e29abdf941009b8300007b87b7f0efa129dd",
+    "pipeline_script": "0b0b0abff4a3c1bd39e33be2e0c4a0d2790fcfee3941c6a84e5b49ea000a24c7",
     "ports_conf_after": "c41a881f6b628b5bc2771dfa6125eb0744f272b666aead54c09b20a8c766c72d",
-    "signup_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "signup_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "testapp_console": "bd0c7f7e0fe8070887a7e1045050c9c9d171382937f11c854dbd96f744d3c841"
+    "signup_v1": "",
+    "signup_v2": "",
+    "testapp_console": "1322b3c15efe04580ef986f67335a6f2473ae2a3d0674a63684322b964c9c90c"
   },
-  "generated_utc": "2026-03-20T22:30:36.215571+00:00",
+  "generated_utc": "2026-03-20T23:47:54.488219+00:00",
   "run": {
     "platform": "linux",
     "python": "3.8.2"
@@ -37,9 +37,9 @@
   "schema_version": "4.1",
   "student": {
     "group": "IB-23-5b",
-    "name": "Тимур",
-    "token": "D1-IB-23-5b-21-FA14",
-    "token_hash8": "53f612b1"
+    "name": "Serik Adil",
+    "token": "D1-IB-23-5b-20-3E97",
+    "token_hash8": "7872841c"
   },
   "validation_passed": false
 }
