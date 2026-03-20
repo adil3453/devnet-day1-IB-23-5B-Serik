@@ -1,22 +1,22 @@
+## Day2_report.md
+
+
 # Day 2 Report — Git + Data Formats + Tests
 
 ## 1) Student
-- Name: Сулейманов Тимур
+- Name: Serik Adil
 - Group: ИБ-23-5б
-- Token: D1-IB23-5b-21-FA14
-- Repo: https://github.com/everett7230/devnet-day1-IB-23-5B-Suleimanov
-- PR link (day2): https://github.com/everett7230/devnet-day1-IB-23-5B-Suleimanov/pull/1
+- Token: D1-IB-23-5b-20-3E97
+- Repo: https://github.com/adil3453/devnet-day1-IB-23-5B-Serik
 
 ## 2) NetAcad progress
-- Module 2.2 done: Yes (screenshot added)
-- Module 3.1–3.6 done: Yes (screenshot added)
+- Module 2.2 done: Yes
+- Module 3.1–3.6 done: Yes
 
 ## 3) Git evidence
-- File artifacts/day2/git_log.txt exists: Yes
-- File artifacts/day2/conflict_log.txt exists: Yes
-
-Conflict note:
-Во время выполнения задания возник конфликт в файле README.md. Я открыл файл, удалил конфликтующие строки и оставил правильный текст, после чего сделал commit.
+- File `artifacts/day2/git_log.txt` exists: Yes
+- File `artifacts/day2/conflict_log.txt` exists: Yes
+- Conflict note (1–2 lines): Во время выполнения задания возник конфликт в README.md, который был исправлен вручную и успешно завершён merge commit.
 
 ## 4) Generated artifacts (Day2)
 - normalized.json: Yes
@@ -26,51 +26,36 @@ Conflict note:
 - summary.json: Yes
 
 ## 5) Commands output (paste EXACT output)
-
 ### 5.1 Generator
-
 ```text
 python src/day2_data_formats.py --input artifacts/day1/response.json
-
-{
-  "schema_version": "2.0",
-  "generated_utc": "2026-03-11T09:59:03.039349+00:00",
-  "student": {
-    "token": "D1-IB23-5b-21-FA14",
-    "token_hash8": "935cc981",
-    "name": "Сулейманов Тимур",
-    "group": "ИБ-23-5б"
-  },
-  "computed": {
-    "title_len": 18
-  }
-}
 ```
+5.2 Tests
+```
+pytest -q
+```
+```
+4...passed
+```
+6) What I learned (3–6 bullets)
 
-### 5.2 Tests
-```pytest -q```
+Научился работать с ветками Git.
 
-.
-1 passed in 0.22s
+Научился создавать Pull Request и делать merge.
 
-## 6) What I learned
-- Научился работать с ветками Git.
-- Научился создавать Pull Request на GitHub.
-- Научился решать merge conflict.
-- Научился работать с форматами данных JSON, YAML, XML и CSV.
-- Научился писать тесты и запускать pytest.
+Научился решать merge conflict.
 
-## 7) Problems & fixes
+Научился сохранять данные в форматах JSON, YAML, XML и CSV.
+
+Научился проверять файлы через pytest.
+
+7) Problems & fixes (at least 1)
 
 Problem:
-Во время выполнения задания возник merge conflict в файле README.md.
+Во время работы с Git возник конфликт при слиянии веток.
 
 Fix:
-Я открыл файл README.md, исправил конфликтующие строки и сделал commit с сообщением:
+Конфликт в файле README.md был исправлен вручную, после чего был выполнен merge commit.
 
-Resolve README conflict (Day2)
-
-Proof:
-Файлы доказательства:
-artifacts/day2/conflict_log.txt
-artifacts/day2/git_log.txt
+Proof (command/file):
+Файлы ```artifacts/day2/conflict_log.txt``` и ```artifacts/day2/git_log.txt``` были успешно созданы, а merge завершился без ошибок.
