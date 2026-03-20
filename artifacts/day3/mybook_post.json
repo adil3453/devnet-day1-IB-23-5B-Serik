@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "6705893f47e7736dc0b87a63999f5a238b19cded80067b94afaff5685a16b993",
+  "request": {
+    "author": "Тимур",
+    "id": 5021,
+    "isbn": "978-2153f612b1",
+    "title": "My DevNet Book 53f612b1"
+  },
+  "response": {
+    "author": null,
+    "id": null,
+    "title": null
+  },
+  "status_code": 200
+}

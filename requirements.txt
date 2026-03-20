@@ -1,0 +1,6 @@
+requests
+pytest
+jsonschema
+PyYAML
+faker
+flask

@@ -1,0 +1,66 @@
+{
+  "count": 10,
+  "items": [
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 2,
+      "isbn": "000-0000000123",
+      "title": "Linux for Networkers"
+    },
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 3,
+      "isbn": "000-0000001123",
+      "title": "NetAcad: 20 Years Of Online-Learning"
+    },
+    {
+      "author": "Mark A. Sportack",
+      "id": 0,
+      "isbn": "978-1578700714",
+      "title": "IP Routing Fundamentals"
+    },
+    {
+      "author": "Stef Maruch Aahz Maruch",
+      "id": 1,
+      "isbn": "978-0471778646",
+      "title": "Python for Dummies"
+    },
+    {
+      "author": "Тимур",
+      "id": 5021,
+      "isbn": "978-2153f612b1",
+      "title": "My DevNet Book 53f612b1"
+    },
+    {
+      "author": "Тимур",
+      "id": 10200,
+      "isbn": "978-1-142-27986-8",
+      "title": "Quality-focused intermediate hierarchy [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10201,
+      "isbn": "978-1-968806-02-6",
+      "title": "Monitored contextually-based productivity [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10202,
+      "isbn": "978-0-233-16201-0",
+      "title": "Fundamental zero administration portal [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10203,
+      "isbn": "978-1-361-48351-0",
+      "title": "Cloned encompassing frame [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10204,
+      "isbn": "978-0-585-15382-7",
+      "title": "Function-based demand-driven application [53f612b1]"
+    }
+  ],
+  "status_code": 200
+}

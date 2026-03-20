@@ -1,0 +1,42 @@
+{
+  "count": 6,
+  "items": [
+    {
+      "author": "Тимур",
+      "id": 5021,
+      "isbn": "978-2153f612b1",
+      "title": "My DevNet Book 53f612b1"
+    },
+    {
+      "author": "Тимур",
+      "id": 10200,
+      "isbn": "978-0-16-053607-6",
+      "title": "Realigned high-level system engine [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10201,
+      "isbn": "978-1-5499-8732-8",
+      "title": "Progressive well-modulated adapter [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10202,
+      "isbn": "978-0-549-30794-5",
+      "title": "Expanded stable help-desk [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10203,
+      "isbn": "978-0-576-07626-5",
+      "title": "Monitored non-volatile database [53f612b1]"
+    },
+    {
+      "author": "Тимур",
+      "id": 10204,
+      "isbn": "978-0-271-77995-9",
+      "title": "Devolved bottom-line success [53f612b1]"
+    }
+  ],
+  "status_code": 200
+}

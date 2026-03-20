@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "ansible_port_8081": true,
+    "docker_token_in_page": true,
+    "docker_tokenproof": true,
+    "jenkins_pipeline_has_stages": true,
+    "security_db_has_tables": false
+  },
+  "evidence_sha256": {
+    "ansible_hello": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ansible_ping": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ansible_playbook_install": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "buildapp_console": "5867956c1098a0d2603ba188957c5ea6c8543ce924e11fb6da061fc15eaed7b8",
+    "curl_apache_8081": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "db_tables": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "db_user_hash_sample": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docker_build_log": "d961a2bc3053a6496414904f52ff7dcf91fa8bcb236ba679714595124b562f90",
+    "docker_ps": "1f8dc04fb27429d1642585fd67bcfb712f55f388335437fbd714c44fda82b0df",
+    "docker_sampleapp_curl": "f10bd93cac00a1f1c1724438f9659b3d2e61df6d24c4a9730081393c238314b1",
+    "docker_token_proof": "17b48dc079e67c8617e853a3545d65c01018d7e414bbbf0f382d1dea2737da44",
+    "jenkins_docker_ps": "2acb65a93b0e1c7d9e9d7df4999d3f7dcca49e0a932b85319a32bf17b304f7f3",
+    "jenkins_url": "d095fe147c37a69451d82eee12259e27d86848e206ae75a37c3de31c6a456aab",
+    "login_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "login_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pipeline_console": "263bf77ada327684003c3f802ae975f2f3bb70e5e05c94f61abf8324bc90aafe",
+    "pipeline_script": "6ddcb6d2a9c1bd545bda010eba0a2940cc978e496aed9c5f6b70b8d7f58bd971",
+    "ports_conf_after": "c41a881f6b628b5bc2771dfa6125eb0744f272b666aead54c09b20a8c766c72d",
+    "signup_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "signup_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "testapp_console": "bd0c7f7e0fe8070887a7e1045050c9c9d171382937f11c854dbd96f744d3c841"
+  },
+  "generated_utc": "2026-03-20T22:30:36.215571+00:00",
+  "run": {
+    "platform": "linux",
+    "python": "3.8.2"
+  },
+  "schema_version": "4.1",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Тимур",
+    "token": "D1-IB-23-5b-21-FA14",
+    "token_hash8": "53f612b1"
+  },
+  "validation_passed": false
+}
