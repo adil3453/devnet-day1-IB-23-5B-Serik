@@ -16,7 +16,7 @@ This repository contains the Day 1 assignment for DevNet Sprint.
 source .venv/bin/activate
 export $(cat .env | xargs)
 python src/day1_api_hello.py
-pytest -q# devnet-day1-IB-23-5B-Suleimanov
+pytest -q# devnet-day1-IB-23-5B-Serik
 
 Day2 A progress
 Day2 B progress
