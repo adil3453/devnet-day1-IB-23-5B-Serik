@@ -1,0 +1,9 @@
+{
+  "response": [
+    {
+      "id": "1",
+      "hostname": "Router1",
+      "version": "1.0"
+    }
+  ]
+}
