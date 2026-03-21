@@ -40,19 +40,21 @@ def main() -> int:
         "Content-Type": "application/json",
     }
 
-    me = requests.get(f"{BASE}/people/me", headers=headers, timeout=30)
+    # me
+    me = requests.get(f"{BASE}/people/me", headers=headers)
     me.raise_for_status()
     save_json(ART / "me.json", me.json())
 
-    rooms = requests.get(f"{BASE}/rooms", headers=headers, timeout=30)
+    # rooms list
+    rooms = requests.get(f"{BASE}/rooms", headers=headers)
     rooms.raise_for_status()
     save_json(ART / "rooms_list.json", rooms.json())
 
+    # create room
     room_create = requests.post(
         f"{BASE}/rooms",
         headers=headers,
         json={"title": room_title},
-        timeout=30,
     )
     room_create.raise_for_status()
     room_data = room_create.json()
@@ -60,20 +62,20 @@ def main() -> int:
 
     room_id = room_data["id"]
 
+    # send message
     msg_post = requests.post(
         f"{BASE}/messages",
         headers=headers,
         json={"roomId": room_id, "text": message_text},
-        timeout=30,
     )
     msg_post.raise_for_status()
     save_json(ART / "message_post.json", msg_post.json())
 
+    # list messages
     msgs = requests.get(
         f"{BASE}/messages",
         headers=headers,
         params={"roomId": room_id, "max": 10},
-        timeout=30,
     )
     msgs.raise_for_status()
     save_json(ART / "messages_list.json", msgs.json())
