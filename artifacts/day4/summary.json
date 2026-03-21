@@ -4,7 +4,7 @@
     "docker_token_in_page": true,
     "docker_tokenproof": true,
     "jenkins_pipeline_has_stages": true,
-    "security_db_has_tables": false
+    "security_db_has_tables": true
   },
   "evidence_sha256": {
     "ansible_hello": "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447",
@@ -12,24 +12,24 @@
     "ansible_playbook_install": "8db2da6856ae14787458c5a1e4a3b3437f578801d29ded1e8f47ca924b9eb9da",
     "buildapp_console": "584d1861db65a828bc2d3eb88ca50a6812b8f89769ece48a08506e45b07844ae",
     "curl_apache_8081": "4dce01b2df4c2ba9959d6d40ee4aa7e21bd9a7a2bea1326fbd41bd12963f95a4",
-    "db_tables": "",
-    "db_user_hash_sample": "",
+    "db_tables": "9a74649352779053dfd9afa524b7b943cf394bebfb0d83568c935cfb0ff48ca8",
+    "db_user_hash_sample": "0901a9775e410829c8db2120bd6169c610194d3b87308382f6859dded328679b",
     "docker_build_log": "ef9bdc571959ef18219ce94b4077d4dbf52844c1295b327753bcaf970d456be8",
     "docker_ps": "694d6f5fe91edc86eeb7620e0c1582a316b0f5ceb1051aaf3e928d55676f2e29",
     "docker_sampleapp_curl": "a9a8f0028678669f5106c36533a8689d73e33253369c421ec2535cc44b6ba9b9",
     "docker_token_proof": "a9a8f0028678669f5106c36533a8689d73e33253369c421ec2535cc44b6ba9b9",
     "jenkins_docker_ps": "3aed17cdcbb78a013dfbf95c0a241925b7df201d229421b08d3ba24e1e5aacf5",
     "jenkins_url": "185f195598830dbc315eb3a6741f97eace245e9d9d2a7225c5da77b87f27f3fc",
-    "login_v1": "",
-    "login_v2": "",
+    "login_v1": "fd0cf9a4a7339d39c5a683ba05251781d3c8b60343951dc941c0fbce37067207",
+    "login_v2": "918418678375f8d17da7a0d0f3e18e2f22c67a521f761c3eb33bb4821341db90",
     "pipeline_console": "68c193d31561794744e1ea5058d3e29abdf941009b8300007b87b7f0efa129dd",
     "pipeline_script": "0b0b0abff4a3c1bd39e33be2e0c4a0d2790fcfee3941c6a84e5b49ea000a24c7",
     "ports_conf_after": "c41a881f6b628b5bc2771dfa6125eb0744f272b666aead54c09b20a8c766c72d",
-    "signup_v1": "",
-    "signup_v2": "",
+    "signup_v1": "3935e5e5d04d14a1d8d0c8e0b78ac565a17a87606e49ca74fde65f5c3d36ca78",
+    "signup_v2": "e9cad814b4e068343e2f947498dc57aa0587f7f99680ea6a329ea6d6dba174ec",
     "testapp_console": "1322b3c15efe04580ef986f67335a6f2473ae2a3d0674a63684322b964c9c90c"
   },
-  "generated_utc": "2026-03-21T00:46:24.666084+00:00",
+  "generated_utc": "2026-03-21T00:49:36.716955+00:00",
   "run": {
     "platform": "linux",
     "python": "3.8.2"
@@ -41,5 +41,5 @@
     "token": "D1-IB-23-5b-20-3E97",
     "token_hash8": "7872841c"
   },
-  "validation_passed": false
+  "validation_passed": true
 }
